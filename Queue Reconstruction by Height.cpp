@@ -21,7 +21,7 @@ public:
         vector<vector<int>> result;
         sort(people.begin(), people.end(), customComp);
         for(vector<int> &x : people)
-            result.insert(result.begin() + x[1], x);
+            result.insert(result.begin() + x[1], x);    // Most important
         return result;
     }
 };
